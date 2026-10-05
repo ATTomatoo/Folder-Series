@@ -1,0 +1,17 @@
+{
+  "category": "General",
+  "changelog": "Recognize series folders independently of the configured media library type.",
+  "description": "Treats folders containing numbered videos such as 01、标题 and 标题01 as series in any media library type.",
+  "guid": "5d8fb1a8-2841-4f58-9a5e-c6938b11dc02",
+  "name": "Folder Series",
+  "overview": "Folder-based anime episode resolver",
+  "owner": "Local",
+  "targetAbi": "10.10.7.0",
+  "timestamp": "2026-10-05T00:00:00Z",
+  "version": "1.1.0.0",
+  "status": "Active",
+  "autoUpdate": false,
+  "assemblies": [
+    "Jellyfin.Plugin.FolderSeries.dll"
+  ]
+}
